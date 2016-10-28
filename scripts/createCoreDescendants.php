@@ -2,11 +2,11 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$classDir = realpath(__DIR__ . '/../classes');
 $rootDir = realpath(__DIR__ . '/..');
 
 $loader = new Nette\Loaders\RobotLoader;
-$loader->addDirectory($classDir);
+$loader->addDirectory("{$rootDir}/classes");
+$loader->addDirectory("{$rootDir}/controllers");
 $loader->setCacheStorage(new Nette\Caching\Storages\FileStorage(__DIR__ . '/../temp'));
 $loader->register();
 
@@ -19,7 +19,12 @@ foreach ($loader->getIndexedClasses() as $className => $classPath) {
         }
 
         $descendantName = Nette\Utils\Strings::replace($className, '~Core$~', '');
-        $descendantPath = str_replace($classDir, "{$rootDir}/override/classes", realpath($classPath));
+
+        $classRelativeDir = str_replace($rootDir, '', $classPath);
+        $classRelativeDir = str_replace("{$descendantName}.php", '', $classRelativeDir);
+        $classRelativeDir = trim($classRelativeDir, '/');
+
+        $descendantPath = "{$rootDir}/override/{$classRelativeDir}/{$descendantName}.php";
         $descendant = new Nette\PhpGenerator\ClassType($descendantName);
         $descendant->setAbstract(Nette\Utils\Strings::match($classBody, "~abstract class {$className}~") ? TRUE : FALSE);
         $descendant->setExtends($className);
