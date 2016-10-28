@@ -1,7 +1,7 @@
 <?php return array (
   'AbstractLogger' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/log/AbstractLogger.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -85,7 +85,7 @@
   ),
   'Address' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Address.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -109,7 +109,7 @@
   ),
   'AddressFormat' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/AddressFormat.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -337,7 +337,7 @@
   ),
   'AdminController' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/controller/AdminController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1165,7 +1165,7 @@
   ),
   'AdminTab' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/AdminTab.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -1297,7 +1297,7 @@
   ),
   'Alias' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Alias.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1309,7 +1309,7 @@
   ),
   'Attachment' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Attachment.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1333,7 +1333,7 @@
   ),
   'Attribute' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Attribute.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1345,7 +1345,7 @@
   ),
   'AttributeGroup' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/AttributeGroup.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1387,7 +1387,7 @@
   ),
   'Blowfish' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Blowfish.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1399,13 +1399,13 @@
   ),
   'CMS' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CMS.php',
     'type' => 'class',
     'override' => false,
   ),
   'CMSCategory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CMSCategory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1423,7 +1423,7 @@
   ),
   'CMSRole' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CMSRole.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1435,7 +1435,7 @@
   ),
   'CSV' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CSV.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1447,13 +1447,13 @@
   ),
   'Cache' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cache/Cache.php',
     'type' => 'abstract class',
     'override' => false,
   ),
   'CacheApc' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cache/CacheApc.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1471,7 +1471,7 @@
   ),
   'CacheFs' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cache/CacheFs.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1483,7 +1483,7 @@
   ),
   'CacheMemcache' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cache/CacheMemcache.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1495,7 +1495,7 @@
   ),
   'CacheMemcached' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cache/CacheMemcached.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1507,7 +1507,7 @@
   ),
   'CacheXcache' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/cache/CacheXcache.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1519,7 +1519,7 @@
   ),
   'Carrier' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Carrier.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1531,7 +1531,7 @@
   ),
   'CarrierModule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/CarrierModule.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -1543,7 +1543,7 @@
   ),
   'Cart' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Cart.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1567,7 +1567,7 @@
   ),
   'CartRule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CartRule.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1579,7 +1579,7 @@
   ),
   'Category' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Category.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1615,7 +1615,7 @@
   ),
   'Chart' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Chart.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1639,7 +1639,7 @@
   ),
   'Combination' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Combination.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1663,7 +1663,7 @@
   ),
   'CompareProduct' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CompareProduct.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1675,7 +1675,7 @@
   ),
   'Configuration' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Configuration.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1687,7 +1687,7 @@
   ),
   'ConfigurationKPI' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ConfigurationKPI.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1699,7 +1699,7 @@
   ),
   'ConfigurationTest' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ConfigurationTest.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1711,7 +1711,7 @@
   ),
   'Connection' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Connection.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1723,7 +1723,7 @@
   ),
   'ConnectionsSource' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ConnectionsSource.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1735,7 +1735,7 @@
   ),
   'Contact' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Contact.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1759,7 +1759,7 @@
   ),
   'Context' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Context.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1771,7 +1771,7 @@
   ),
   'Controller' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/controller/Controller.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -1783,7 +1783,7 @@
   ),
   'ControllerFactory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ControllerFactory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1795,7 +1795,7 @@
   ),
   'Cookie' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Cookie.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1921,7 +1921,7 @@
   ),
   'Country' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Country.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1933,7 +1933,7 @@
   ),
   'County' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/County.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1945,7 +1945,7 @@
   ),
   'Currency' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Currency.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1957,7 +1957,7 @@
   ),
   'Customer' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Customer.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1969,7 +1969,7 @@
   ),
   'CustomerMessage' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CustomerMessage.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1981,7 +1981,7 @@
   ),
   'CustomerThread' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CustomerThread.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1993,7 +1993,7 @@
   ),
   'Customization' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Customization.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2005,7 +2005,7 @@
   ),
   'CustomizationField' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/CustomizationField.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2017,7 +2017,7 @@
   ),
   'DateRange' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/DateRange.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2029,7 +2029,7 @@
   ),
   'Db' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/db/Db.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2041,7 +2041,7 @@
   ),
   'DbMySQLi' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/db/DbMySQLi.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2053,7 +2053,7 @@
   ),
   'DbPDO' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/db/DbPDO.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2065,7 +2065,7 @@
   ),
   'DbQuery' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/db/DbQuery.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2077,7 +2077,7 @@
   ),
   'Delivery' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Delivery.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2089,7 +2089,7 @@
   ),
   'Discount' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Discount.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2113,7 +2113,7 @@
   ),
   'Dispatcher' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Dispatcher.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2125,7 +2125,7 @@
   ),
   'Employee' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Employee.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2137,7 +2137,7 @@
   ),
   'Feature' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Feature.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2149,7 +2149,7 @@
   ),
   'FeatureValue' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/FeatureValue.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2161,7 +2161,7 @@
   ),
   'FileLogger' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/log/FileLogger.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2173,7 +2173,7 @@
   ),
   'FileUploader' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/FileUploader.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2185,7 +2185,7 @@
   ),
   'FrontController' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/controller/FrontController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2197,7 +2197,7 @@
   ),
   'Gender' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Gender.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2221,7 +2221,7 @@
   ),
   'Group' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Group.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2233,7 +2233,7 @@
   ),
   'GroupReduction' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/GroupReduction.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2245,7 +2245,7 @@
   ),
   'Guest' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Guest.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2269,7 +2269,7 @@
   ),
   'HTMLTemplate' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplate.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2281,7 +2281,7 @@
   ),
   'HTMLTemplateDeliverySlip' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplateDeliverySlip.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2293,7 +2293,7 @@
   ),
   'HTMLTemplateInvoice' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplateInvoice.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2305,7 +2305,7 @@
   ),
   'HTMLTemplateOrderReturn' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplateOrderReturn.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2317,7 +2317,7 @@
   ),
   'HTMLTemplateOrderSlip' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplateOrderSlip.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2329,7 +2329,7 @@
   ),
   'HTMLTemplateSupplyOrderForm' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/HTMLTemplateSupplyOrderForm.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2341,13 +2341,13 @@
   ),
   'Helper' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/Helper.php',
     'type' => 'class',
     'override' => false,
   ),
   'HelperCalendar' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperCalendar.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2365,7 +2365,7 @@
   ),
   'HelperForm' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperForm.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2377,7 +2377,7 @@
   ),
   'HelperImageUploader' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperImageUploader.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2389,7 +2389,7 @@
   ),
   'HelperKpi' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperKpi.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2401,7 +2401,7 @@
   ),
   'HelperKpiRow' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperKpiRow.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2413,7 +2413,7 @@
   ),
   'HelperList' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperList.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2425,7 +2425,7 @@
   ),
   'HelperOptions' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperOptions.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2437,7 +2437,7 @@
   ),
   'HelperShop' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperShop.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2449,7 +2449,7 @@
   ),
   'HelperTreeCategories' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperTreeCategories.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2461,7 +2461,7 @@
   ),
   'HelperTreeShops' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperTreeShops.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2473,7 +2473,7 @@
   ),
   'HelperUploader' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperUploader.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2485,7 +2485,7 @@
   ),
   'HelperView' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/helper/HelperView.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2509,7 +2509,7 @@
   ),
   'Hook' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Hook.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2557,7 +2557,7 @@
   ),
   'Image' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Image.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2569,7 +2569,7 @@
   ),
   'ImageManager' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ImageManager.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2581,7 +2581,7 @@
   ),
   'ImageType' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ImageType.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2593,7 +2593,7 @@
   ),
   'ImportModule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/ImportModule.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2617,7 +2617,7 @@
   ),
   'Language' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Language.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2629,7 +2629,7 @@
   ),
   'Link' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Link.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2641,7 +2641,7 @@
   ),
   'LocalizationPack' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/LocalizationPack.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2653,7 +2653,7 @@
   ),
   'Mail' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Mail.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2665,7 +2665,7 @@
   ),
   'Manufacturer' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Manufacturer.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2689,7 +2689,7 @@
   ),
   'Media' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Media.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2701,7 +2701,7 @@
   ),
   'Message' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Message.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2713,7 +2713,7 @@
   ),
   'Meta' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Meta.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2725,13 +2725,13 @@
   ),
   'Module' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/Module.php',
     'type' => 'abstract class',
     'override' => false,
   ),
   'ModuleAdminController' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/controller/ModuleAdminController.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2749,7 +2749,7 @@
   ),
   'ModuleFrontController' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/controller/ModuleFrontController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2761,7 +2761,7 @@
   ),
   'ModuleGraph' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/ModuleGraph.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2773,7 +2773,7 @@
   ),
   'ModuleGraphEngine' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/ModuleGraphEngine.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2785,7 +2785,7 @@
   ),
   'ModuleGrid' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/ModuleGrid.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2797,7 +2797,7 @@
   ),
   'ModuleGridEngine' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/module/ModuleGridEngine.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2821,7 +2821,7 @@
   ),
   'MySQL' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/db/MySQL.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2845,7 +2845,7 @@
   ),
   'Notification' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Notification.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2857,7 +2857,7 @@
   ),
   'ObjectModel' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ObjectModel.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -2869,13 +2869,13 @@
   ),
   'Order' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/Order.php',
     'type' => 'class',
     'override' => false,
   ),
   'OrderCarrier' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderCarrier.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2887,7 +2887,7 @@
   ),
   'OrderCartRule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderCartRule.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2929,7 +2929,7 @@
   ),
   'OrderDetail' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderDetail.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2953,7 +2953,7 @@
   ),
   'OrderDiscount' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderDiscount.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2977,7 +2977,7 @@
   ),
   'OrderHistory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderHistory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2989,7 +2989,7 @@
   ),
   'OrderInvoice' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderInvoice.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3001,7 +3001,7 @@
   ),
   'OrderMessage' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderMessage.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3025,7 +3025,7 @@
   ),
   'OrderPayment' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderPayment.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3037,7 +3037,7 @@
   ),
   'OrderReturn' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderReturn.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3061,7 +3061,7 @@
   ),
   'OrderReturnState' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderReturnState.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3073,7 +3073,7 @@
   ),
   'OrderSlip' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderSlip.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3097,7 +3097,7 @@
   ),
   'OrderState' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/order/OrderState.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3109,7 +3109,7 @@
   ),
   'PDF' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/PDF.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3121,7 +3121,7 @@
   ),
   'PDFGenerator' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/pdf/PDFGenerator.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3133,7 +3133,7 @@
   ),
   'Pack' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Pack.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3145,7 +3145,7 @@
   ),
   'Page' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Page.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3193,7 +3193,7 @@
   ),
   'PaymentCC' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/PaymentCC.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3205,7 +3205,7 @@
   ),
   'PaymentModule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/PaymentModule.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -3259,7 +3259,7 @@
   ),
   'PrestaShopBackup' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/PrestaShopBackup.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3271,7 +3271,7 @@
   ),
   'PrestaShopCollection' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/PrestaShopCollection.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3283,7 +3283,7 @@
   ),
   'PrestaShopDatabaseException' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/exception/PrestaShopDatabaseException.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3295,7 +3295,7 @@
   ),
   'PrestaShopException' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/exception/PrestaShopException.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3307,7 +3307,7 @@
   ),
   'PrestaShopLogger' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/PrestaShopLogger.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3319,7 +3319,7 @@
   ),
   'PrestaShopModuleException' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/exception/PrestaShopModuleException.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3331,7 +3331,7 @@
   ),
   'PrestaShopPaymentException' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/exception/PrestaShopPaymentException.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3355,7 +3355,7 @@
   ),
   'Product' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Product.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3379,7 +3379,7 @@
   ),
   'ProductDownload' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ProductDownload.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3391,7 +3391,7 @@
   ),
   'ProductSale' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ProductSale.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3403,7 +3403,7 @@
   ),
   'ProductSupplier' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/ProductSupplier.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3415,7 +3415,7 @@
   ),
   'Profile' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Profile.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3427,7 +3427,7 @@
   ),
   'QuickAccess' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/QuickAccess.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3439,7 +3439,7 @@
   ),
   'RangePrice' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/range/RangePrice.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3451,7 +3451,7 @@
   ),
   'RangeWeight' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/range/RangeWeight.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3463,7 +3463,7 @@
   ),
   'Referrer' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Referrer.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3475,7 +3475,7 @@
   ),
   'RequestSql' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/RequestSql.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3487,7 +3487,7 @@
   ),
   'Rijndael' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Rijndael.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3499,7 +3499,7 @@
   ),
   'Risk' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Risk.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3511,7 +3511,7 @@
   ),
   'Scene' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Scene.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3523,7 +3523,7 @@
   ),
   'Search' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Search.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3547,7 +3547,7 @@
   ),
   'SearchEngine' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/SearchEngine.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3559,7 +3559,7 @@
   ),
   'Shop' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/shop/Shop.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3571,7 +3571,7 @@
   ),
   'ShopGroup' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/shop/ShopGroup.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3583,7 +3583,7 @@
   ),
   'ShopUrl' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/shop/ShopUrl.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3607,7 +3607,7 @@
   ),
   'SmartyCustom' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/SmartyCustom.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3619,7 +3619,7 @@
   ),
   'SpecificPrice' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/SpecificPrice.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3631,7 +3631,7 @@
   ),
   'SpecificPriceRule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/SpecificPriceRule.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3643,7 +3643,7 @@
   ),
   'State' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/State.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3667,13 +3667,13 @@
   ),
   'Stock' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/Stock.php',
     'type' => 'class',
     'override' => false,
   ),
   'StockAvailable' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockAvailable.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3691,7 +3691,7 @@
   ),
   'StockManager' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockManager.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3703,7 +3703,7 @@
   ),
   'StockManagerFactory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockManagerFactory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3721,7 +3721,7 @@
   ),
   'StockManagerModule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockManagerModule.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -3733,7 +3733,7 @@
   ),
   'StockMvt' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockMvt.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3745,7 +3745,7 @@
   ),
   'StockMvtReason' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockMvtReason.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3757,7 +3757,7 @@
   ),
   'StockMvtWS' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/StockMvtWS.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3769,7 +3769,7 @@
   ),
   'Store' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Store.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3793,7 +3793,7 @@
   ),
   'Supplier' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Supplier.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3817,7 +3817,7 @@
   ),
   'SupplyOrder' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/SupplyOrder.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3829,7 +3829,7 @@
   ),
   'SupplyOrderDetail' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/SupplyOrderDetail.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3841,7 +3841,7 @@
   ),
   'SupplyOrderHistory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/SupplyOrderHistory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3853,7 +3853,7 @@
   ),
   'SupplyOrderReceiptHistory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/SupplyOrderReceiptHistory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3865,7 +3865,7 @@
   ),
   'SupplyOrderState' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/SupplyOrderState.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3877,7 +3877,7 @@
   ),
   'Tab' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Tab.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3889,7 +3889,7 @@
   ),
   'Tag' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Tag.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3901,13 +3901,13 @@
   ),
   'Tax' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/Tax.php',
     'type' => 'class',
     'override' => false,
   ),
   'TaxCalculator' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/TaxCalculator.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3925,7 +3925,7 @@
   ),
   'TaxManagerFactory' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/TaxManagerFactory.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3943,7 +3943,7 @@
   ),
   'TaxManagerModule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/TaxManagerModule.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -3955,7 +3955,7 @@
   ),
   'TaxRule' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/TaxRule.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3967,7 +3967,7 @@
   ),
   'TaxRulesGroup' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/TaxRulesGroup.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3979,7 +3979,7 @@
   ),
   'TaxRulesTaxManager' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tax/TaxRulesTaxManager.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3991,7 +3991,7 @@
   ),
   'Theme' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Theme.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4003,7 +4003,7 @@
   ),
   'Tools' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Tools.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4015,7 +4015,7 @@
   ),
   'Translate' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Translate.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4027,7 +4027,7 @@
   ),
   'TranslatedConfiguration' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/TranslatedConfiguration.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4039,7 +4039,7 @@
   ),
   'Tree' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tree/Tree.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4051,13 +4051,13 @@
   ),
   'TreeToolbar' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tree/TreeToolbar.php',
     'type' => 'class',
     'override' => false,
   ),
   'TreeToolbarButton' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tree/TreeToolbarButton.php',
     'type' => 'abstract class',
     'override' => false,
   ),
@@ -4075,7 +4075,7 @@
   ),
   'TreeToolbarLink' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tree/TreeToolbarLink.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4087,13 +4087,13 @@
   ),
   'TreeToolbarSearch' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tree/TreeToolbarSearch.php',
     'type' => 'class',
     'override' => false,
   ),
   'TreeToolbarSearchCategories' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/tree/TreeToolbarSearchCategories.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4111,7 +4111,7 @@
   ),
   'Upgrader' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Upgrader.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4123,7 +4123,7 @@
   ),
   'Uploader' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Uploader.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4135,7 +4135,7 @@
   ),
   'Validate' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Validate.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4147,7 +4147,7 @@
   ),
   'Warehouse' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/Warehouse.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4159,7 +4159,7 @@
   ),
   'WarehouseProductLocation' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/stock/WarehouseProductLocation.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4171,7 +4171,7 @@
   ),
   'WebserviceException' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceException.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4183,7 +4183,7 @@
   ),
   'WebserviceKey' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceKey.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4195,7 +4195,7 @@
   ),
   'WebserviceOutputBuilder' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceOutputBuilder.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4219,7 +4219,7 @@
   ),
   'WebserviceOutputXML' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceOutputXML.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4231,7 +4231,7 @@
   ),
   'WebserviceRequest' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceRequest.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4243,7 +4243,7 @@
   ),
   'WebserviceSpecificManagementImages' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceSpecificManagementImages.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4261,7 +4261,7 @@
   ),
   'WebserviceSpecificManagementSearch' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/webservice/WebserviceSpecificManagementSearch.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4273,7 +4273,7 @@
   ),
   'Zone' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Zone.php',
     'type' => 'class',
     'override' => false,
   ),
