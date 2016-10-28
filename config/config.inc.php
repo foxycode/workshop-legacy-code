@@ -31,6 +31,10 @@ if (is_file($currentDir.'/defines_custom.inc.php')) {
     include_once($currentDir.'/defines_custom.inc.php');
 }
 require_once($currentDir.'/defines.inc.php');
+require_once(_PS_ROOT_DIR_ . '/vendor/autoload.php');
+
+Tracy\Debugger::enable(getenv('NETTE_DEVEL') === '1' ? Tracy\Debugger::DEVELOPMENT : Tracy\Debugger::PRODUCTION);
+Tracy\Debugger::$strictMode = TRUE;
 
 $start_time = microtime(true);
 
@@ -62,6 +66,8 @@ if (!file_exists(_PS_ROOT_DIR_.'/config/settings.inc.php')) {
 /* include settings file only if we are not in multi-tenancy mode */
 require_once(_PS_ROOT_DIR_.'/config/settings.inc.php');
 require_once(_PS_CONFIG_DIR_.'autoload.php');
+
+DbHelpers::createDebugPanel(Db::getInstance());
 
 require_once $currentDir . DIRECTORY_SEPARATOR . 'bootstrap.php';
 

@@ -28,9 +28,16 @@
  * Class DbPDOCore
  *
  * @since 1.5.0.1
+ *
+ * @method onQuery(DbPDOCore $connection, string $sql, PDOStatement $result, float $time)
  */
 class DbPDOCore extends Db
 {
+    use Nette\SmartObject;
+
+    /** @var callable[] function (DbPDOCore $connection, string $sql, PDOStatement $result, float $time); Occurs after query is executed */
+    public $onQuery;
+
     /** @var PDO */
     protected $link;
 
@@ -131,7 +138,12 @@ class DbPDOCore extends Db
      */
     protected function _query($sql)
     {
-        return $this->link->query($sql);
+        $time = microtime(TRUE);
+        $result = $this->link->query($sql);
+        $time = microtime(TRUE) - $time;
+
+        $this->onQuery($this, $sql, $result, $time);
+        return $result;
     }
 
     /**
