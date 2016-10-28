@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tab_modules_list>
+<tab class_name="AdminProducts" display_type="slider_list">
+<module name="prestagiftvouchers" position="1"/>
+<module name="dmuassocprodcat" position="2"/>
+<module name="etranslation" position="3"/>
+</tab>
+<tab class_name="AdminCategories" display_type="slider_list">
+<module name="innovativemenu" position="1"/>
+<module name="productsbycategoryslider" position="2"/>
+<module name="slidercategory" position="3"/>
+</tab>
+<tab class_name="AdminTracking" display_type="slider_list">
+</tab>
+<tab class_name="AdminAttributesGroups" display_type="slider_list">
+</tab>
+<tab class_name="AdminFeatures" display_type="slider_list">
+<module name="pm_multiplefeatures" position="1"/>
+</tab>
+<tab class_name="AdminManufacturers" display_type="slider_list">
+<module name="ebay" position="1"/>
+<module name="magnalister" position="2"/>
+<module name="steerfox" position="3"/>
+<module name="selldorado" position="4"/>
+<module name="pilipay" position="5"/>
+<module name="shoppingfluxexport" position="6"/>
+<module name="lengow" position="7"/>
+<module name="amazon" position="8"/>
+<module name="twenga" position="9"/>
+<module name="cdiscount" position="10"/>
+<module name="gmerchantcenter" position="11"/>
+<module name="leguide" position="12"/>
+<module name="productsbybrandslider" position="13"/>
+</tab>
+<tab class_name="AdminSuppliers" display_type="slider_list">
+</tab>
+<tab class_name="AdminTags" display_type="slider_list">
+<module name="etranslation" position="1"/>
+</tab>
+<tab class_name="AdminOrders" display_type="slider_list">
+<module name="ebay" position="1"/>
+<module name="gshopping" position="2"/>
+<module name="steerfox" position="3"/>
+<module name="magnalister" position="4"/>
+<module name="selldorado" position="5"/>
+<module name="fianetfraud" position="6"/>
+<module name="shoppingfluxexport" position="7"/>
+<module name="iziflux" position="8"/>
+<module name="lengow" position="9"/>
+<module name="twenga" position="10"/>
+<module name="cdiscount" position="11"/>
+<module name="orlique" position="12"/>
+<module name="printlabels" position="13"/>
+<module name="pushoncart" position="14"/>
+<module name="prestafraud" position="15"/>
+<module name="stampsdotcom" position="16"/>
+<module name="twengabid" position="17"/>
+<module name="twengafeed" position="18"/>
+</tab>
+<tab class_name="AdminInvoices" display_type="slider_list">
+<module name="neotaxesupdater" position="1"/>
+<module name="ordertaxprofitreport" position="2"/>
+<module name="avalaratax" position="3"/>
+<module name="stampsdotcom" position="4"/>
+</tab>
+<tab class_name="AdminReturn" display_type="slider_list">
+</tab>
+<tab class_name="AdminDeliverySlip" display_type="slider_list">
+<module name="bpostshm" position="1"/>
+<module name="socolissimo" position="2"/>
+<module name="seur" position="3"/>
+<module name="wing" position="4"/>
+<module name="expeditor" position="5"/>
+<module name="mondialrelay" position="6"/>
+<module name="tntcarrier" position="7"/>
+<module name="packlink" position="8"/>
+<module name="envoimoinscher" position="9"/>
+<module name="chronopost" position="10"/>
+<module name="lowcostexpress" position="11"/>
+<module name="dpdfrance" position="12"/>
+<module name="emtshipping" position="13"/>
+<module name="purolator" position="14"/>
+<module name="upstracking" position="15"/>
+<module name="stampsdotcom" position="16"/>
+</tab>
+<tab class_name="AdminSlip" display_type="slider_list">
+<module name="lgabonos" position="1"/>
+<module name="dmulistecommandes" position="2"/>
+</tab>
+<tab class_name="AdminStatuses" display_type="slider_list">
+<module name="bpostshm" position="1"/>
+<module name="socolissimo" position="2"/>
+<module name="seur" position="3"/>
+<module name="wing" position="4"/>
+<module name="expeditor" position="5"/>
+<module name="mondialrelay" position="6"/>
+<module name="tntcarrier" position="7"/>
+<module name="packlink" position="8"/>
+<module name="envoimoinscher" position="9"/>
+<module name="chronopost" position="10"/>
+<module name="lowcostexpress" position="11"/>
+<module name="dpdfrance" position="12"/>
+<module name="emtshipping" position="13"/>
+<module name="purolator" position="14"/>
+<module name="upstracking" position="15"/>
+</tab>
+<tab class_name="AdminOrderMessage" display_type="slider_list">
+<mo
